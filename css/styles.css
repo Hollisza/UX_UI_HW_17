@@ -1,0 +1,104 @@
+.logo{
+    display:flex;
+    height:200px;
+    width:auto;
+    justify-self:flex-start;
+}
+
+header{
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:row;
+}
+div .name{
+    display:flex;
+    flex-direction:row;
+}
+div .lowerNav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10px;
+}
+ul .navigation{
+    padding:25px;
+}
+h1{
+    color: #000;
+    font-family: arial;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    padding-left:25px;
+}
+h2{
+    color: #000;
+    font-family: arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    width: 500px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    padding-left:25px;
+}
+div .spacer{
+    width: 1163px;
+    height: 5px;
+    background-color: #D9D9D9;
+}
+
+.content{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+p{
+    display: flex;
+    width: 612px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+nav{ 
+    display:inline-block;
+    justify-content:end;
+}
+.heroImg{
+    padding-right:25px;
+}
+
+footer{
+    display:flex;
+    flex-direction:row;
+    background-color:#D9D9D9;
+    font-family:arial;
+    text-transform: uppercase;
+    font-size:25px;
+    padding:25px;
+}
+.navigation{
+    display:flex;
+    flex-direction:row;
+    font-family:arial;
+    font-size:25px;
+    padding:10px;
+}
